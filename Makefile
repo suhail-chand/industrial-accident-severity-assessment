@@ -2,7 +2,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = industrial-safety-chatbot
+PROJECT_NAME = industrial-accident-severity-assessment
 PYTHON_VERSION = 3.10
 PYTHON_INTERPRETER = python
 
@@ -29,14 +29,14 @@ clean:
 ## Lint using flake8 and black (use `make format` to do formatting)
 .PHONY: lint
 lint:
-	flake8 industrial_safety_chatbot
-	isort --check --diff --profile black industrial_safety_chatbot
-	black --check --config pyproject.toml industrial_safety_chatbot
+	flake8 industrial_accident_severity_assessment
+	isort --check --diff --profile black industrial_accident_severity_assessment
+	black --check --config pyproject.toml industrial_accident_severity_assessment
 
 ## Format source code with black
 .PHONY: format
 format:
-	black --config pyproject.toml industrial_safety_chatbot
+	black --config pyproject.toml industrial_accident_severity_assessment
 
 
 

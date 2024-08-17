@@ -167,3 +167,7 @@ cython_debug/
 # IDE
 .idea/
 .vscode/
+
+# Model files
+models/
+*.gguf

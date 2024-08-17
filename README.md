@@ -1,12 +1,15 @@
-# Post Graduate Program in AI and ML
+# NLP based Industrial Accident Severity Assessment
 
-## Capstone Project - NLP based Chatbot for Industrial Safety Assessment
-
-### Overview
-* **Domain**: Industrial safety
+* **Domain**: Industrial Safety
 
 * **Dataset**: <a href='https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database'>Industrial Safety and Health Analytics Database</a>
 
-* **Context**: The database comes from one of the biggest industry in Brazil and in the world. It is an urgent need for industries/companies around the globe to understand why employees still suffer some injuries/accidents in plants. Sometimes they also die in such environment.
+* **Context**: The database originates from one of the largest industries in Brazil and globally. It is crucial for industries and companies worldwide to understand why employees continue to experience injuries and accidents in industrial settings, and in some tragic cases, fatalities. Addressing these issues is essential for improving workplace safety and preventing future incidents.
 
-* **Project Objective**: To design a ML/DL based chatbot utility which can help the professionals to highlight the safety risk as per the incident description.
+* **Objective**: To develop a machine learning/deep learning model that assists professionals in identifying and highlighting safety risks based on incident descriptions.
+
+* **Key Methodologies**:
+    * Data Analysis and Pre-processing
+    * Vectorization: BoW, N-Grams, TF-IDF, Word2Vec, GloVe
+    * Data Balancing: SMOTE, Text Augmentation using Llama3
+    * ML for Classification: SVM, Ensemble Learning, ANN, BERT+LSTM
